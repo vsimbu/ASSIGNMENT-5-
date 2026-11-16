@@ -1,0 +1,56 @@
+
+
+.col{
+    padding:20px ;
+}
+.nav-item{
+    padding:10px ;
+    text-align: center;
+
+}
+
+footer{
+    background:#222;
+    color:white;
+    margin-top:40px;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    padding:30px;
+}
+
+.footer-content img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid white;
+}
+
+.footer-content ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.footer-content li{
+    line-height:30px;
+}
+
+.copy{
+    text-align:center;
+    padding:15px;
+    background:#111;
+}
+
+
+
+@media(max-width:900px){
+
+.gallery{
+
+grid-template-columns:repeat(2,1fr);
+}
+}
